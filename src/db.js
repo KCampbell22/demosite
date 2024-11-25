@@ -100,7 +100,7 @@ document
     document.getElementById("dataForm").reset();
 
     const msg = {
-      to: "ksoup12@gmail.com", // Change to your recipient
+      to: email, // Change to your recipient
       from: "kadecampbelldev@gmail.com", // Change to your verified sender
       subject: "Sending with SendGrid is Fun",
       text: "and easy to do anywhere, even with Node.js",
