@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.4",
+    "firebase": "^11.0.2",
+    "path-browserify": "^1.0.1"
+  },
+  "name": "demosite",
+  "version": "1.0.0",
+  "main": "db.js",
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
